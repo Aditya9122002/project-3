@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-image: url("./assests/pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  padding: 0px 50px;
+  /* background-color: aqua; */
+  color: yellow;
+}
+.list {
+  display: flex;
+  /* text-decoration: none; */
+  align-items: center;
+  justify-content: right;
+  list-style: none;
+  padding: 10px;
+  margin: 30px;
+  gap: 70px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#image {
+  list-style: none;
+}
+#button_small {
+  padding: 10px;
+  color: rgb(254, 246, 4);
+  font-size: 20px;
+  background-color: rgb(14, 8, 0);
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+}
+#button_small:hover {
+  background-color: brown;
+  font-size: 30px;
+  text-decoration: double;
+}
+
+/* center section */
+
+#center-section {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  max-width: 1154px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 119px;
+  font-weight: 800;
+  /* font-family: "Dela Gothic One", cursive; */
+  /* font-style: normal; */
+
+  font-size: 50px;
+  /* line-height: 50px; */
+  color: yellow;
+}
+
+#button_container {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  margin: 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+}
+#button_container:hover {
+  background-color: brown;
+  font-size: 30px;
+  text-decoration: double;
+}
+#footer_logo {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+@media screen and (max-width: 440px){
+
+}
+
